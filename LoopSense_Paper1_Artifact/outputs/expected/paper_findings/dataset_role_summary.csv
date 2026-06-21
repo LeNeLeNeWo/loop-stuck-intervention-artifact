@@ -1,0 +1,5 @@
+﻿dataset,trajectory_count,step_count,avg_length,pi_prevalence,hn_prevalence,uc_prevalence,raw_action_coverage,tool_coverage,observation_coverage,caveat
+Natural500,500,8550,17.1,0.984,0.33,0.268,0.0,0.0,0.0,Natural-distribution control; current active artifact exposes evidence/signal sidecars but no raw action/tool/observation fields for rich repetition detectors.
+Enriched500,500,26014,52.028,0.998,0.774,0.582,0.6472668563081417,0.0,0.6190897209195049,"Enriched difficult loop-heavy set; raw runtime text is partially recoverable, especially for manually reviewed disagreement steps."
+StressFresh100,100,3132,31.32,0.92,0.46,0.82,1.0,1.0,0.9680715197956578,Clean stress challenge; raw visible step fields are broadly available and support the richest repetition-detector analysis.
+OpenHandsExternal330,330,51010,154.57575757575756,0.996969696969697,0.1515151515151515,0.0121212121212121,0.0,0.0,0.0,"External long-horizon generalization set; active label files do not expose raw runtime fields, so rich detectors are limited to step caps."

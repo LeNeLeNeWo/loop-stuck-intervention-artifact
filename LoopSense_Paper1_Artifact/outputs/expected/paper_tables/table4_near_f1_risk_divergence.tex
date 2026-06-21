@@ -1,0 +1,18 @@
+\begin{table}
+\caption{Near-F1 detector pairs with divergent productive-interruption risk.}
+\label{tab:table4_near_f1_risk_divergence}
+\begin{tabular}{lllrrrrrrrrrl}
+\toprule
+Dataset & Detector A & Detector B & F1 A & F1 B & Delta F1 & PIIR A & PIIR B & Delta PIIR & HN-FPR A & HN-FPR B & Delta HN-FPR & Interpretation \\
+\midrule
+Enriched500 & max\_step\_guard (threshold=50) & file\_revisit\_guard (window=5;repeats=3) & 0.719000 & 0.729000 & 0.009000 & 0.101000 & 0.562000 & 0.461000 & 0.118000 & 0.349000 & 0.230000 & In Enriched500, near-identical F1 is paired with a large PIIR gap, suggesting that aggregate F1 alone is incomplete for intervention mechanisms. \\
+Enriched500 & max\_step\_guard (threshold=50) & file\_revisit\_guard (window=10;repeats=5) & 0.719000 & 0.721000 & 0.002000 & 0.101000 & 0.415000 & 0.313000 & 0.118000 & 0.271000 & 0.153000 & In Enriched500, near-identical F1 is paired with a large PIIR gap, suggesting that aggregate F1 alone is incomplete for intervention mechanisms. \\
+Enriched500 & file\_revisit\_guard (window=10;repeats=3) & file\_revisit\_guard (window=10;repeats=5) & 0.741000 & 0.721000 & 0.019000 & 0.623000 & 0.415000 & 0.209000 & 0.401000 & 0.271000 & 0.129000 & In Enriched500, near-identical F1 is paired with a large PIIR gap, suggesting that aggregate F1 alone is incomplete for intervention mechanisms. \\
+Enriched500 & file\_revisit\_guard (window=5;repeats=3) & file\_revisit\_guard (window=10;repeats=5) & 0.729000 & 0.721000 & 0.007000 & 0.562000 & 0.415000 & 0.147000 & 0.349000 & 0.271000 & 0.078000 & In Enriched500, the pair has similar F1 but different trigger-site risk, supporting risk-aware reporting. \\
+StressFresh100 & file\_revisit\_guard (window=5;repeats=5) & file\_revisit\_guard (window=10;repeats=3) & 0.633000 & 0.652000 & 0.019000 & 0.589000 & 0.868000 & 0.279000 & 0.519000 & 0.797000 & 0.278000 & In StressFresh100, near-identical F1 is paired with a large PIIR gap, suggesting that aggregate F1 alone is incomplete for intervention mechanisms. \\
+StressFresh100 & file\_revisit\_guard (window=5;repeats=3) & file\_revisit\_guard (window=5;repeats=5) & 0.644000 & 0.633000 & 0.011000 & 0.845000 & 0.589000 & 0.256000 & 0.767000 & 0.519000 & 0.248000 & In StressFresh100, near-identical F1 is paired with a large PIIR gap, suggesting that aggregate F1 alone is incomplete for intervention mechanisms. \\
+StressFresh100 & file\_revisit\_guard (window=10;repeats=3) & file\_revisit\_guard (window=10;repeats=5) & 0.652000 & 0.657000 & 0.005000 & 0.868000 & 0.690000 & 0.178000 & 0.797000 & 0.592000 & 0.205000 & In StressFresh100, similar F1 hides a meaningful HN-FPR difference, which matters for productive hard-negative regions. \\
+StressFresh100 & exact\_action\_repeat\_k (k=2) & action\_observation\_similarity (tfidf\_adjacent>=0.9) & 0.349000 & 0.359000 & 0.010000 & 0.116000 & 0.283000 & 0.167000 & 0.094000 & 0.100000 & 0.006000 & In StressFresh100, the pair has similar F1 but different trigger-site risk, supporting risk-aware reporting. \\
+\bottomrule
+\end{tabular}
+\end{table}

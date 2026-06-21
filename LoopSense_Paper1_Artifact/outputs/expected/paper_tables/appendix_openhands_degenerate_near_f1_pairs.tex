@@ -1,0 +1,20 @@
+\begin{table}
+\caption{OpenHands near-zero-F1 diagnostic near-F1 pairs.}
+\label{tab:appendix_openhands_degenerate_near_f1_pairs}
+\begin{tabular}{lllrrrrrrrrrl}
+\toprule
+Dataset & Detector A & Detector B & F1 A & F1 B & Delta F1 & PIIR A & PIIR B & Delta PIIR & HN-FPR A & HN-FPR B & Delta HN-FPR & Interpretation \\
+\midrule
+OpenHandsExternal330 & max\_step\_guard (threshold=25) & max\_step\_guard (threshold=200) & 0.003000 & 0.000000 & 0.003000 & 1.000000 & 0.106000 & 0.894000 & 1.000000 & 0.004000 & 0.996000 & In OpenHandsExternal330, near-identical F1 is paired with a large PIIR gap, suggesting that aggregate F1 alone is incomplete for intervention mechanisms. \\
+OpenHandsExternal330 & max\_step\_guard (threshold=50) & max\_step\_guard (threshold=200) & 0.004000 & 0.000000 & 0.004000 & 0.998000 & 0.106000 & 0.891000 & 1.000000 & 0.004000 & 0.996000 & In OpenHandsExternal330, near-identical F1 is paired with a large PIIR gap, suggesting that aggregate F1 alone is incomplete for intervention mechanisms. \\
+OpenHandsExternal330 & max\_step\_guard (threshold=75) & max\_step\_guard (threshold=200) & 0.005000 & 0.000000 & 0.005000 & 0.976000 & 0.106000 & 0.870000 & 0.994000 & 0.004000 & 0.990000 & In OpenHandsExternal330, near-identical F1 is paired with a large PIIR gap, suggesting that aggregate F1 alone is incomplete for intervention mechanisms. \\
+OpenHandsExternal330 & max\_step\_guard (threshold=100) & max\_step\_guard (threshold=200) & 0.003000 & 0.000000 & 0.003000 & 0.886000 & 0.106000 & 0.780000 & 0.938000 & 0.004000 & 0.934000 & In OpenHandsExternal330, near-identical F1 is paired with a large PIIR gap, suggesting that aggregate F1 alone is incomplete for intervention mechanisms. \\
+OpenHandsExternal330 & max\_step\_guard (threshold=25) & max\_step\_guard (threshold=150) & 0.003000 & 0.008000 & 0.005000 & 1.000000 & 0.536000 & 0.464000 & 1.000000 & 0.448000 & 0.552000 & In OpenHandsExternal330, near-identical F1 is paired with a large PIIR gap, suggesting that aggregate F1 alone is incomplete for intervention mechanisms. \\
+OpenHandsExternal330 & max\_step\_guard (threshold=50) & max\_step\_guard (threshold=150) & 0.004000 & 0.008000 & 0.004000 & 0.998000 & 0.536000 & 0.461000 & 1.000000 & 0.448000 & 0.552000 & In OpenHandsExternal330, near-identical F1 is paired with a large PIIR gap, suggesting that aggregate F1 alone is incomplete for intervention mechanisms. \\
+OpenHandsExternal330 & max\_step\_guard (threshold=75) & max\_step\_guard (threshold=150) & 0.005000 & 0.008000 & 0.003000 & 0.976000 & 0.536000 & 0.440000 & 0.994000 & 0.448000 & 0.546000 & In OpenHandsExternal330, near-identical F1 is paired with a large PIIR gap, suggesting that aggregate F1 alone is incomplete for intervention mechanisms. \\
+OpenHandsExternal330 & max\_step\_guard (threshold=150) & max\_step\_guard (threshold=200) & 0.008000 & 0.000000 & 0.008000 & 0.536000 & 0.106000 & 0.430000 & 0.448000 & 0.004000 & 0.444000 & In OpenHandsExternal330, near-identical F1 is paired with a large PIIR gap, suggesting that aggregate F1 alone is incomplete for intervention mechanisms. \\
+OpenHandsExternal330 & max\_step\_guard (threshold=100) & max\_step\_guard (threshold=150) & 0.003000 & 0.008000 & 0.004000 & 0.886000 & 0.536000 & 0.350000 & 0.938000 & 0.448000 & 0.490000 & In OpenHandsExternal330, near-identical F1 is paired with a large PIIR gap, suggesting that aggregate F1 alone is incomplete for intervention mechanisms. \\
+OpenHandsExternal330 & max\_step\_guard (threshold=25) & max\_step\_guard (threshold=100) & 0.003000 & 0.003000 & 0.001000 & 1.000000 & 0.886000 & 0.114000 & 1.000000 & 0.938000 & 0.062000 & In OpenHandsExternal330, the pair has similar F1 but different trigger-site risk, supporting risk-aware reporting. \\
+\bottomrule
+\end{tabular}
+\end{table}

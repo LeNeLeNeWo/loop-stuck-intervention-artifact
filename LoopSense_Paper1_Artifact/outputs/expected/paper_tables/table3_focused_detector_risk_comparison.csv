@@ -1,0 +1,9 @@
+Dataset,Detector,Config,F1,UC Recall,PIIR,HN-FPR,Burden,Interpretation
+Enriched500,max_step_guard,threshold=50,0.719,0.526,0.101,0.118,0.341,A simple step cap gives strong F1 with lower PIIR than file-revisit guards in this pool.
+Enriched500,file_revisit_guard,window=5;repeats=3,0.729,0.843,0.562,0.349,0.454,Similar F1 to the step cap but substantially higher productive-interruption risk.
+Enriched500,file_revisit_guard,window=10;repeats=3,0.741,0.889,0.623,0.401,0.494,"Higher UC recall, but risk rises further on PI spans and HN-eligible steps."
+StressFresh100,file_revisit_guard,window=10;repeats=3,0.652,0.958,0.868,0.797,0.754,"Very high UC recall, paired with high PIIR/HN-FPR in the stress pool."
+StressFresh100,tool_repeat_k,k=3,0.446,0.298,0.283,0.137,0.2,A coarse repetition guard with moderate F1 and non-trivial productive-interruption risk.
+StressFresh100,repeat_without_progress_guard,base=tool;k=3;progress=runtime,0.273,0.141,0.004,0.0,0.072,"A progress-aware guard reduces PIIR/HN-FPR, with a utility tradeoff in F1/UC recall."
+OpenHandsExternal330,max_step_guard,threshold=25,0.003,1.0,1.0,1.0,0.845,"A short step cap triggers broadly on long productive trajectories; useful as a budget guard, not a progress-aware detector."
+OpenHandsExternal330,max_step_guard,threshold=150,0.008,0.4,0.536,0.448,0.133,A later cap reduces burden but still interrupts many PI/HN regions while UC is rare.

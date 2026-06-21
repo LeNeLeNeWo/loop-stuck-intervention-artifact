@@ -1,0 +1,14 @@
+\begin{table}
+\caption{Trajectory-level construct non-equivalence across evidence pools.}
+\label{tab:table2_construct_non_equivalence}
+\begin{tabular}{lrrrllll}
+\toprule
+Dataset & PI prevalence & HN prevalence & UC prevalence & HN-only & UC-only & HN+UC mixed & Main interpretation \\
+\midrule
+Natural500 & 0.984000 & 0.330000 & 0.268000 & 94 (0.188) & 63 (0.126) & 71 (0.142) & Natural control still contains PI/HN/UC mixtures, but with lower UC concentration. \\
+Enriched500 & 0.998000 & 0.774000 & 0.582000 & 146 (0.292) & 50 (0.100) & 241 (0.482) & HN-only, UC-only, and mixed cases coexist, so HN and UC should not be collapsed. \\
+StressFresh100 & 0.920000 & 0.460000 & 0.820000 & 16 (0.160) & 52 (0.520) & 30 (0.300) & High UC prevalence with remaining HN cases makes this a focused stress pool. \\
+OpenHandsExternal330 & 0.997000 & 0.152000 & 0.012000 & 47 (0.142) & 1 (0.003) & 3 (0.009) & Long-horizon PI is common while UC is rare in this external pool. \\
+\bottomrule
+\end{tabular}
+\end{table}

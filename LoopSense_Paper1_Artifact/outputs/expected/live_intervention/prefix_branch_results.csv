@@ -1,0 +1,1 @@
+﻿pool,trajectory_id,prefix_step,arm,success,patch_valid,steps_after_prefix,tokens,cost,wall_clock_seconds,repeated_action_count,repeated_tool_count,repeated_file_count,repeated_error_count,new_file_touched_count,changed_error_count,test_pass_event_count,final_status,failure_mode

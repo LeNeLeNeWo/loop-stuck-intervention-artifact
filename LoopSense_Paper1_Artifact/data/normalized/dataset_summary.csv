@@ -1,0 +1,5 @@
+﻿Evidence pool,Source framework,Trajectories,Steps,Avg. steps,PI prevalence,HN prevalence,UC prevalence,Sampling role,Main use
+Natural500,SWE-agent / LoopBench-Agent,500,8550,17.1,0.984,0.33,0.268,Natural-distribution control,Estimate construct behavior in a less enriched SWE-agent pool.
+Final500,SWE-agent / LoopBench-Agent,500,26014,52.028,0.998,0.774,0.582,Enriched difficult loop-heavy set,Study difficult loop-heavy cases and HN/UC boundary behavior.
+StressFresh100,SWE-agent / LoopBench-Agent,100,3132,31.32,0.92,0.46,0.82,Clean stress challenge,Stress-test intervention risk and UC/HN boundary cases.
+OpenHandsExternal330,OpenHands external,330,51010,154.576,0.997,0.152,0.012,External long-horizon generalization set,Probe external long-horizon generalization and length effects.

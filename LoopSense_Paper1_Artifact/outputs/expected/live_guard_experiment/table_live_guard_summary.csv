@@ -1,0 +1,4 @@
+N_rows,arm,completed,guard_trigger_rate,hard_stop_rate,infrastructure_failed,mean_repeated_file_rate,mean_repeated_tool_rate,mean_steps,mean_tokens,median_steps,oracle_available_rate,patch_generated_rate,resolved_rate,skipped,tests_pass_rate,total_attempt_rows
+10,NO_GUARD,10,1.0,0.0,0,0.4740144,0.8122643,10.0,56256.0,10.0,0.0,0.0,,0,,10
+10,WARN_REPLAN_GUARD,10,0.8,0.0,0,0.37425200000000003,0.8728098,10.0,60433.3,10.0,0.0,0.0,,0,,10
+10,HARD_STOP_GUARD,10,1.0,1.0,0,0.4589682,0.7471032,4.8,19714.9,4.5,0.0,0.0,,0,,10

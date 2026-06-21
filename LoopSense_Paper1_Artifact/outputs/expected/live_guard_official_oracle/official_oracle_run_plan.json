@@ -1,0 +1,13 @@
+{
+  "generated_at": "2026-06-15T04:53:02Z",
+  "mode": "full",
+  "tasks": 30,
+  "arms": [
+    "NO_GUARD",
+    "WARN_REPLAN_GUARD",
+    "HARD_STOP_GUARD"
+  ],
+  "max_steps": 50,
+  "timeout_minutes": 45,
+  "resume": true
+}

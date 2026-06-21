@@ -1,0 +1,4 @@
+N_attempted,N_completed,N_official_empty_patch,N_official_oracle_outcomes,N_oracle_evaluated,N_oracle_test_runs,arm,guard_trigger_rate,infrastructure_failure_rate,mean_post_trigger_repetition_rate,mean_steps,mean_tokens,mean_trigger_step,median_steps,patch_generated_rate,resolved_rate,tests_pass_rate
+60,60,12,60,48,48,NO_GUARD,0.9833333333333333,0.0,0.5035161166666667,41.983333333333334,758691.8,8.11864406779661,50.0,0.8,0.5833333333333334,0.5833333333333334
+60,60,6,60,54,54,WARN_REPLAN_GUARD,0.9833333333333333,0.0,0.5303794333333334,40.233333333333334,744588.8,6.305084745762712,48.0,0.9,0.7,0.7
+60,60,51,60,9,9,HARD_STOP_GUARD,1.0,0.0,0.46651583333333335,8.016666666666667,67224.56666666667,8.016666666666667,5.0,0.15,0.13333333333333333,0.13333333333333333

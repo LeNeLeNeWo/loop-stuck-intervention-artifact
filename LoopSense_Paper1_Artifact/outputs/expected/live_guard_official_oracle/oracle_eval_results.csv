@@ -1,0 +1,181 @@
+released_task_id,benchmark_instance_id,arm,patch_generated,oracle_status,resolved,tests_pass,fail_to_pass_count,pass_to_pass_count,oracle_error_type,oracle_runtime,notes
+released_task_91c97ead817eaeb2,scikit-learn__scikit-learn-11578,NO_GUARD,True,evaluated,True,True,,,,714.022,run_id=official_live_no_guard_1781522044; returncode=0
+released_task_b056a515a3adbd70,pydata__xarray-3095,NO_GUARD,True,evaluated,True,True,,,,714.022,run_id=official_live_no_guard_1781522044; returncode=0
+released_task_56bf2e9790e1ec72,pytest-dev__pytest-5809,NO_GUARD,True,evaluated,True,True,,,,714.022,run_id=official_live_no_guard_1781522044; returncode=0
+released_task_df63832860780fe0,sphinx-doc__sphinx-7910,NO_GUARD,True,evaluated,True,True,,,,714.022,run_id=official_live_no_guard_1781522044; returncode=0
+released_task_5e850f2d21dabd70,django__django-11477,NO_GUARD,True,evaluated,False,False,,,,714.022,run_id=official_live_no_guard_1781522044; returncode=0
+released_task_7e04a501679a132a,django__django-16032,NO_GUARD,False,official_empty_patch,False,False,,,empty_patch,714.022,run_id=official_live_no_guard_1781522044; returncode=0; official_empty_patch_no_tests_run
+released_task_62e1a300553b00f6,django__django-15814,NO_GUARD,True,evaluated,True,True,,,,714.022,run_id=official_live_no_guard_1781522044; returncode=0
+released_task_d0c764a7cfe98bbb,django__django-15503,NO_GUARD,True,evaluated,False,False,,,,714.022,run_id=official_live_no_guard_1781522044; returncode=0
+released_task_dfa98b4dcdc90f6b,django__django-11133,NO_GUARD,True,evaluated,True,True,,,,714.022,run_id=official_live_no_guard_1781522044; returncode=0
+released_task_6f4886a7683a7987,pydata__xarray-4966,NO_GUARD,True,evaluated,True,True,,,,714.022,run_id=official_live_no_guard_1781522044; returncode=0
+released_task_f7656944fa46c5cd,django__django-12754,NO_GUARD,True,evaluated,True,True,,,,714.022,run_id=official_live_no_guard_1781522044; returncode=0
+released_task_34f0eda326d9b62e,django__django-15022,NO_GUARD,True,evaluated,True,True,,,,714.022,run_id=official_live_no_guard_1781522044; returncode=0
+released_task_a66062ecd2a73e1b,pydata__xarray-7229,NO_GUARD,False,official_empty_patch,False,False,,,empty_patch,714.022,run_id=official_live_no_guard_1781522044; returncode=0; official_empty_patch_no_tests_run
+released_task_8b893a87713ebd6d,pydata__xarray-6938,NO_GUARD,False,official_empty_patch,False,False,,,empty_patch,714.022,run_id=official_live_no_guard_1781522044; returncode=0; official_empty_patch_no_tests_run
+released_task_6c4107394026fd81,scikit-learn__scikit-learn-11310,NO_GUARD,True,evaluated,True,True,,,,714.022,run_id=official_live_no_guard_1781522044; returncode=0
+released_task_9e9a2e8a8e602bb3,pydata__xarray-3677,NO_GUARD,True,evaluated,True,True,,,,714.022,run_id=official_live_no_guard_1781522044; returncode=0
+released_task_0a99280355bfeb51,django__django-13568,NO_GUARD,True,evaluated,True,True,,,,714.022,run_id=official_live_no_guard_1781522044; returncode=0
+released_task_99bc6df058728d26,scikit-learn__scikit-learn-13124,NO_GUARD,False,official_empty_patch,False,False,,,empty_patch,714.022,run_id=official_live_no_guard_1781522044; returncode=0; official_empty_patch_no_tests_run
+released_task_75953f0e9d547a21,django__django-12304,NO_GUARD,True,evaluated,True,True,,,,714.022,run_id=official_live_no_guard_1781522044; returncode=0
+released_task_1e60d4d20584f996,django__django-12708,NO_GUARD,True,evaluated,True,True,,,,714.022,run_id=official_live_no_guard_1781522044; returncode=0
+released_task_cb92f9ca5782bc55,sympy__sympy-13372,NO_GUARD,True,evaluated,True,True,,,,714.022,run_id=official_live_no_guard_1781522044; returncode=0
+released_task_0564c8f60606eb5a,pydata__xarray-4075,NO_GUARD,True,evaluated,True,True,,,,714.022,run_id=official_live_no_guard_1781522044; returncode=0
+released_task_0f9166c5f9aacc19,pydata__xarray-6599,NO_GUARD,False,official_empty_patch,False,False,,,empty_patch,714.022,run_id=official_live_no_guard_1781522044; returncode=0; official_empty_patch_no_tests_run
+released_task_99c12e09d38cfa00,django__django-14725,NO_GUARD,True,evaluated,False,False,,,,714.022,run_id=official_live_no_guard_1781522044; returncode=0
+released_task_4805f1e278827d09,django__django-14238,NO_GUARD,True,evaluated,True,True,,,,714.022,run_id=official_live_no_guard_1781522044; returncode=0
+released_task_e590948c68d6dee7,django__django-12209,NO_GUARD,False,official_empty_patch,False,False,,,empty_patch,714.022,run_id=official_live_no_guard_1781522044; returncode=0; official_empty_patch_no_tests_run
+released_task_d8d2a78a7a2a4779,django__django-7530,NO_GUARD,True,evaluated,True,True,,,,714.022,run_id=official_live_no_guard_1781522044; returncode=0
+released_task_88e0f0029dab0d06,sympy__sympy-14976,NO_GUARD,True,evaluated,False,False,,,,714.022,run_id=official_live_no_guard_1781522044; returncode=0
+released_task_6b0d74dee3da1eaf,astropy__astropy-13579,NO_GUARD,True,evaluated,True,True,,,,714.022,run_id=official_live_no_guard_1781522044; returncode=0
+released_task_d06df4bda5ee702b,sphinx-doc__sphinx-8459,NO_GUARD,False,official_empty_patch,False,False,,,empty_patch,714.022,run_id=official_live_no_guard_1781522044; returncode=0; official_empty_patch_no_tests_run
+released_task_91c97ead817eaeb2,scikit-learn__scikit-learn-11578,WARN_REPLAN_GUARD,True,evaluated,True,True,,,,804.884,run_id=official_live_warn_replan_guard_1781522759; returncode=0
+released_task_b056a515a3adbd70,pydata__xarray-3095,WARN_REPLAN_GUARD,True,evaluated,True,True,,,,804.884,run_id=official_live_warn_replan_guard_1781522759; returncode=0
+released_task_56bf2e9790e1ec72,pytest-dev__pytest-5809,WARN_REPLAN_GUARD,True,evaluated,True,True,,,,804.884,run_id=official_live_warn_replan_guard_1781522759; returncode=0
+released_task_df63832860780fe0,sphinx-doc__sphinx-7910,WARN_REPLAN_GUARD,True,evaluated,True,True,,,,804.884,run_id=official_live_warn_replan_guard_1781522759; returncode=0
+released_task_5e850f2d21dabd70,django__django-11477,WARN_REPLAN_GUARD,True,evaluated,False,False,,,,804.884,run_id=official_live_warn_replan_guard_1781522759; returncode=0
+released_task_7e04a501679a132a,django__django-16032,WARN_REPLAN_GUARD,False,official_empty_patch,False,False,,,empty_patch,804.884,run_id=official_live_warn_replan_guard_1781522759; returncode=0; official_empty_patch_no_tests_run
+released_task_62e1a300553b00f6,django__django-15814,WARN_REPLAN_GUARD,True,evaluated,True,True,,,,804.884,run_id=official_live_warn_replan_guard_1781522759; returncode=0
+released_task_d0c764a7cfe98bbb,django__django-15503,WARN_REPLAN_GUARD,True,evaluated,True,True,,,,804.884,run_id=official_live_warn_replan_guard_1781522759; returncode=0
+released_task_dfa98b4dcdc90f6b,django__django-11133,WARN_REPLAN_GUARD,True,evaluated,True,True,,,,804.884,run_id=official_live_warn_replan_guard_1781522759; returncode=0
+released_task_6f4886a7683a7987,pydata__xarray-4966,WARN_REPLAN_GUARD,True,evaluated,True,True,,,,804.884,run_id=official_live_warn_replan_guard_1781522759; returncode=0
+released_task_f7656944fa46c5cd,django__django-12754,WARN_REPLAN_GUARD,True,evaluated,True,True,,,,804.884,run_id=official_live_warn_replan_guard_1781522759; returncode=0
+released_task_34f0eda326d9b62e,django__django-15022,WARN_REPLAN_GUARD,True,evaluated,True,True,,,,804.884,run_id=official_live_warn_replan_guard_1781522759; returncode=0
+released_task_a66062ecd2a73e1b,pydata__xarray-7229,WARN_REPLAN_GUARD,True,evaluated,False,False,,,,804.884,run_id=official_live_warn_replan_guard_1781522759; returncode=0
+released_task_8b893a87713ebd6d,pydata__xarray-6938,WARN_REPLAN_GUARD,True,evaluated,False,False,,,,804.884,run_id=official_live_warn_replan_guard_1781522759; returncode=0
+released_task_6c4107394026fd81,scikit-learn__scikit-learn-11310,WARN_REPLAN_GUARD,True,evaluated,True,True,,,,804.884,run_id=official_live_warn_replan_guard_1781522759; returncode=0
+released_task_9e9a2e8a8e602bb3,pydata__xarray-3677,WARN_REPLAN_GUARD,True,evaluated,True,True,,,,804.884,run_id=official_live_warn_replan_guard_1781522759; returncode=0
+released_task_0a99280355bfeb51,django__django-13568,WARN_REPLAN_GUARD,True,evaluated,True,True,,,,804.884,run_id=official_live_warn_replan_guard_1781522759; returncode=0
+released_task_99bc6df058728d26,scikit-learn__scikit-learn-13124,WARN_REPLAN_GUARD,True,evaluated,False,False,,,,804.884,run_id=official_live_warn_replan_guard_1781522759; returncode=0
+released_task_75953f0e9d547a21,django__django-12304,WARN_REPLAN_GUARD,True,evaluated,True,True,,,,804.884,run_id=official_live_warn_replan_guard_1781522759; returncode=0
+released_task_1e60d4d20584f996,django__django-12708,WARN_REPLAN_GUARD,True,evaluated,True,True,,,,804.884,run_id=official_live_warn_replan_guard_1781522759; returncode=0
+released_task_cb92f9ca5782bc55,sympy__sympy-13372,WARN_REPLAN_GUARD,True,evaluated,True,True,,,,804.884,run_id=official_live_warn_replan_guard_1781522759; returncode=0
+released_task_0564c8f60606eb5a,pydata__xarray-4075,WARN_REPLAN_GUARD,True,evaluated,True,True,,,,804.884,run_id=official_live_warn_replan_guard_1781522759; returncode=0
+released_task_0f9166c5f9aacc19,pydata__xarray-6599,WARN_REPLAN_GUARD,False,official_empty_patch,False,False,,,empty_patch,804.884,run_id=official_live_warn_replan_guard_1781522759; returncode=0; official_empty_patch_no_tests_run
+released_task_99c12e09d38cfa00,django__django-14725,WARN_REPLAN_GUARD,True,evaluated,False,False,,,,804.884,run_id=official_live_warn_replan_guard_1781522759; returncode=0
+released_task_4805f1e278827d09,django__django-14238,WARN_REPLAN_GUARD,True,evaluated,True,True,,,,804.884,run_id=official_live_warn_replan_guard_1781522759; returncode=0
+released_task_e590948c68d6dee7,django__django-12209,WARN_REPLAN_GUARD,True,evaluated,True,True,,,,804.884,run_id=official_live_warn_replan_guard_1781522759; returncode=0
+released_task_d8d2a78a7a2a4779,django__django-7530,WARN_REPLAN_GUARD,True,evaluated,True,True,,,,804.884,run_id=official_live_warn_replan_guard_1781522759; returncode=0
+released_task_88e0f0029dab0d06,sympy__sympy-14976,WARN_REPLAN_GUARD,True,evaluated,False,False,,,,804.884,run_id=official_live_warn_replan_guard_1781522759; returncode=0
+released_task_6b0d74dee3da1eaf,astropy__astropy-13579,WARN_REPLAN_GUARD,True,evaluated,True,True,,,,804.884,run_id=official_live_warn_replan_guard_1781522759; returncode=0
+released_task_d06df4bda5ee702b,sphinx-doc__sphinx-8459,WARN_REPLAN_GUARD,True,evaluated,True,True,,,,804.884,run_id=official_live_warn_replan_guard_1781522759; returncode=0
+released_task_91c97ead817eaeb2,scikit-learn__scikit-learn-11578,HARD_STOP_GUARD,False,official_empty_patch,False,False,,,empty_patch,143.871,run_id=official_live_hard_stop_guard_1781523564; returncode=0; official_empty_patch_no_tests_run
+released_task_b056a515a3adbd70,pydata__xarray-3095,HARD_STOP_GUARD,False,official_empty_patch,False,False,,,empty_patch,143.871,run_id=official_live_hard_stop_guard_1781523564; returncode=0; official_empty_patch_no_tests_run
+released_task_56bf2e9790e1ec72,pytest-dev__pytest-5809,HARD_STOP_GUARD,True,evaluated,True,True,,,,143.871,run_id=official_live_hard_stop_guard_1781523564; returncode=0
+released_task_df63832860780fe0,sphinx-doc__sphinx-7910,HARD_STOP_GUARD,False,official_empty_patch,False,False,,,empty_patch,143.871,run_id=official_live_hard_stop_guard_1781523564; returncode=0; official_empty_patch_no_tests_run
+released_task_5e850f2d21dabd70,django__django-11477,HARD_STOP_GUARD,False,official_empty_patch,False,False,,,empty_patch,143.871,run_id=official_live_hard_stop_guard_1781523564; returncode=0; official_empty_patch_no_tests_run
+released_task_7e04a501679a132a,django__django-16032,HARD_STOP_GUARD,False,official_empty_patch,False,False,,,empty_patch,143.871,run_id=official_live_hard_stop_guard_1781523564; returncode=0; official_empty_patch_no_tests_run
+released_task_62e1a300553b00f6,django__django-15814,HARD_STOP_GUARD,False,official_empty_patch,False,False,,,empty_patch,143.871,run_id=official_live_hard_stop_guard_1781523564; returncode=0; official_empty_patch_no_tests_run
+released_task_d0c764a7cfe98bbb,django__django-15503,HARD_STOP_GUARD,False,official_empty_patch,False,False,,,empty_patch,143.871,run_id=official_live_hard_stop_guard_1781523564; returncode=0; official_empty_patch_no_tests_run
+released_task_dfa98b4dcdc90f6b,django__django-11133,HARD_STOP_GUARD,False,official_empty_patch,False,False,,,empty_patch,143.871,run_id=official_live_hard_stop_guard_1781523564; returncode=0; official_empty_patch_no_tests_run
+released_task_6f4886a7683a7987,pydata__xarray-4966,HARD_STOP_GUARD,False,official_empty_patch,False,False,,,empty_patch,143.871,run_id=official_live_hard_stop_guard_1781523564; returncode=0; official_empty_patch_no_tests_run
+released_task_f7656944fa46c5cd,django__django-12754,HARD_STOP_GUARD,False,official_empty_patch,False,False,,,empty_patch,143.871,run_id=official_live_hard_stop_guard_1781523564; returncode=0; official_empty_patch_no_tests_run
+released_task_34f0eda326d9b62e,django__django-15022,HARD_STOP_GUARD,False,official_empty_patch,False,False,,,empty_patch,143.871,run_id=official_live_hard_stop_guard_1781523564; returncode=0; official_empty_patch_no_tests_run
+released_task_a66062ecd2a73e1b,pydata__xarray-7229,HARD_STOP_GUARD,False,official_empty_patch,False,False,,,empty_patch,143.871,run_id=official_live_hard_stop_guard_1781523564; returncode=0; official_empty_patch_no_tests_run
+released_task_8b893a87713ebd6d,pydata__xarray-6938,HARD_STOP_GUARD,False,official_empty_patch,False,False,,,empty_patch,143.871,run_id=official_live_hard_stop_guard_1781523564; returncode=0; official_empty_patch_no_tests_run
+released_task_6c4107394026fd81,scikit-learn__scikit-learn-11310,HARD_STOP_GUARD,False,official_empty_patch,False,False,,,empty_patch,143.871,run_id=official_live_hard_stop_guard_1781523564; returncode=0; official_empty_patch_no_tests_run
+released_task_9e9a2e8a8e602bb3,pydata__xarray-3677,HARD_STOP_GUARD,False,official_empty_patch,False,False,,,empty_patch,143.871,run_id=official_live_hard_stop_guard_1781523564; returncode=0; official_empty_patch_no_tests_run
+released_task_0a99280355bfeb51,django__django-13568,HARD_STOP_GUARD,True,evaluated,True,True,,,,143.871,run_id=official_live_hard_stop_guard_1781523564; returncode=0
+released_task_99bc6df058728d26,scikit-learn__scikit-learn-13124,HARD_STOP_GUARD,False,official_empty_patch,False,False,,,empty_patch,143.871,run_id=official_live_hard_stop_guard_1781523564; returncode=0; official_empty_patch_no_tests_run
+released_task_75953f0e9d547a21,django__django-12304,HARD_STOP_GUARD,True,evaluated,True,True,,,,143.871,run_id=official_live_hard_stop_guard_1781523564; returncode=0
+released_task_1e60d4d20584f996,django__django-12708,HARD_STOP_GUARD,False,official_empty_patch,False,False,,,empty_patch,143.871,run_id=official_live_hard_stop_guard_1781523564; returncode=0; official_empty_patch_no_tests_run
+released_task_cb92f9ca5782bc55,sympy__sympy-13372,HARD_STOP_GUARD,False,official_empty_patch,False,False,,,empty_patch,143.871,run_id=official_live_hard_stop_guard_1781523564; returncode=0; official_empty_patch_no_tests_run
+released_task_0564c8f60606eb5a,pydata__xarray-4075,HARD_STOP_GUARD,True,evaluated,True,True,,,,143.871,run_id=official_live_hard_stop_guard_1781523564; returncode=0
+released_task_0f9166c5f9aacc19,pydata__xarray-6599,HARD_STOP_GUARD,False,official_empty_patch,False,False,,,empty_patch,143.871,run_id=official_live_hard_stop_guard_1781523564; returncode=0; official_empty_patch_no_tests_run
+released_task_99c12e09d38cfa00,django__django-14725,HARD_STOP_GUARD,False,official_empty_patch,False,False,,,empty_patch,143.871,run_id=official_live_hard_stop_guard_1781523564; returncode=0; official_empty_patch_no_tests_run
+released_task_4805f1e278827d09,django__django-14238,HARD_STOP_GUARD,False,official_empty_patch,False,False,,,empty_patch,143.871,run_id=official_live_hard_stop_guard_1781523564; returncode=0; official_empty_patch_no_tests_run
+released_task_e590948c68d6dee7,django__django-12209,HARD_STOP_GUARD,False,official_empty_patch,False,False,,,empty_patch,143.871,run_id=official_live_hard_stop_guard_1781523564; returncode=0; official_empty_patch_no_tests_run
+released_task_d8d2a78a7a2a4779,django__django-7530,HARD_STOP_GUARD,False,official_empty_patch,False,False,,,empty_patch,143.871,run_id=official_live_hard_stop_guard_1781523564; returncode=0; official_empty_patch_no_tests_run
+released_task_88e0f0029dab0d06,sympy__sympy-14976,HARD_STOP_GUARD,False,official_empty_patch,False,False,,,empty_patch,143.871,run_id=official_live_hard_stop_guard_1781523564; returncode=0; official_empty_patch_no_tests_run
+released_task_6b0d74dee3da1eaf,astropy__astropy-13579,HARD_STOP_GUARD,False,official_empty_patch,False,False,,,empty_patch,143.871,run_id=official_live_hard_stop_guard_1781523564; returncode=0; official_empty_patch_no_tests_run
+released_task_d06df4bda5ee702b,sphinx-doc__sphinx-8459,HARD_STOP_GUARD,False,official_empty_patch,False,False,,,empty_patch,143.871,run_id=official_live_hard_stop_guard_1781523564; returncode=0; official_empty_patch_no_tests_run
+released_task_790aa72b63479f0d,django__django-11138,NO_GUARD,True,evaluated,False,False,,,,839.685,run_id=official_live_no_guard_1781634677; returncode=0
+released_task_e0fc0264ae28642d,scikit-learn__scikit-learn-13439,NO_GUARD,False,official_empty_patch,False,False,,,empty_patch,839.685,run_id=official_live_no_guard_1781634677; returncode=0
+released_task_8fd6e55bdee766f4,sympy__sympy-16792,NO_GUARD,True,evaluated,True,True,,,,839.685,run_id=official_live_no_guard_1781634677; returncode=0
+released_task_c77d8a4dcc11bb0a,scikit-learn__scikit-learn-13135,NO_GUARD,True,evaluated,True,True,,,,839.685,run_id=official_live_no_guard_1781634677; returncode=0
+released_task_55b2031312bdb4bf,django__django-15368,NO_GUARD,True,evaluated,True,True,,,,839.685,run_id=official_live_no_guard_1781634677; returncode=0
+released_task_12d4bb2102dc2f56,matplotlib__matplotlib-20826,NO_GUARD,False,official_empty_patch,False,False,,,empty_patch,839.685,run_id=official_live_no_guard_1781634677; returncode=0
+released_task_a919c7a583ab5954,django__django-11206,NO_GUARD,True,evaluated,True,True,,,,839.685,run_id=official_live_no_guard_1781634677; returncode=0
+released_task_cab2f650d91f6374,scikit-learn__scikit-learn-10844,NO_GUARD,True,evaluated,True,True,,,,839.685,run_id=official_live_no_guard_1781634677; returncode=0
+released_task_f45d0c7549f17baa,sympy__sympy-11618,NO_GUARD,True,evaluated,True,True,,,,839.685,run_id=official_live_no_guard_1781634677; returncode=0
+released_task_58ded97d74649fee,sphinx-doc__sphinx-8551,NO_GUARD,True,evaluated,True,True,,,,839.685,run_id=official_live_no_guard_1781634677; returncode=0
+released_task_6205c20339254394,django__django-13212,NO_GUARD,True,evaluated,False,False,,,,839.685,run_id=official_live_no_guard_1781634677; returncode=0
+released_task_47d55095abaa47f9,django__django-16661,NO_GUARD,True,evaluated,True,True,,,,839.685,run_id=official_live_no_guard_1781634677; returncode=0
+released_task_565e882d2900a39c,django__django-11734,NO_GUARD,False,official_empty_patch,False,False,,,empty_patch,839.685,run_id=official_live_no_guard_1781634677; returncode=0
+released_task_3f855a12db0ec3f4,astropy__astropy-13398,NO_GUARD,True,evaluated,False,False,,,,839.685,run_id=official_live_no_guard_1781634677; returncode=0
+released_task_c4961460689c63a7,django__django-12858,NO_GUARD,True,evaluated,True,True,,,,839.685,run_id=official_live_no_guard_1781634677; returncode=0
+released_task_013d7986c4fc8511,django__django-14053,NO_GUARD,True,evaluated,False,False,,,,839.685,run_id=official_live_no_guard_1781634677; returncode=0
+released_task_d8741bb288a4ade9,django__django-16256,NO_GUARD,True,evaluated,False,False,,,,839.685,run_id=official_live_no_guard_1781634677; returncode=0
+released_task_75ab04e6eb0a46d4,scikit-learn__scikit-learn-14894,NO_GUARD,True,evaluated,True,True,,,,839.685,run_id=official_live_no_guard_1781634677; returncode=0
+released_task_8add27b26abe316e,django__django-15104,NO_GUARD,True,evaluated,True,True,,,,839.685,run_id=official_live_no_guard_1781634677; returncode=0
+released_task_32a884cb9e7541b3,django__django-16263,NO_GUARD,False,official_empty_patch,False,False,,,empty_patch,839.685,run_id=official_live_no_guard_1781634677; returncode=0
+released_task_b31dca5c15fcb419,sympy__sympy-24443,NO_GUARD,True,evaluated,True,True,,,,839.685,run_id=official_live_no_guard_1781634677; returncode=0
+released_task_2dc760e50d035174,django__django-13741,NO_GUARD,True,evaluated,True,True,,,,839.685,run_id=official_live_no_guard_1781634677; returncode=0
+released_task_52c13e3266d4501c,pytest-dev__pytest-6197,NO_GUARD,True,evaluated,True,True,,,,839.685,run_id=official_live_no_guard_1781634677; returncode=0
+released_task_df968c962ec62163,django__django-14376,NO_GUARD,True,evaluated,False,False,,,,839.685,run_id=official_live_no_guard_1781634677; returncode=0
+released_task_c03acb33a56d22ef,django__django-14534,NO_GUARD,True,evaluated,True,True,,,,839.685,run_id=official_live_no_guard_1781634677; returncode=0
+released_task_5921987a268cd3bf,sphinx-doc__sphinx-10614,NO_GUARD,True,evaluated,False,False,,,,839.685,run_id=official_live_no_guard_1781634677; returncode=0
+released_task_10b7cdb276063e7b,pydata__xarray-4687,NO_GUARD,True,evaluated,False,False,,,,839.685,run_id=official_live_no_guard_1781634677; returncode=0
+released_task_814570b719cd62fd,pydata__xarray-7393,NO_GUARD,False,official_empty_patch,False,False,,,empty_patch,839.685,run_id=official_live_no_guard_1781634677; returncode=0
+released_task_710948da4ab7cfee,django__django-11951,NO_GUARD,True,evaluated,True,True,,,,839.685,run_id=official_live_no_guard_1781634677; returncode=0
+released_task_850aca790a4743d9,django__django-15252,NO_GUARD,True,evaluated,False,False,,,,839.685,run_id=official_live_no_guard_1781634677; returncode=0
+released_task_790aa72b63479f0d,django__django-11138,WARN_REPLAN_GUARD,True,evaluated,True,True,,,,808.717,run_id=official_live_warn_replan_guard_1781635517; returncode=0
+released_task_e0fc0264ae28642d,scikit-learn__scikit-learn-13439,WARN_REPLAN_GUARD,True,evaluated,True,True,,,,808.717,run_id=official_live_warn_replan_guard_1781635517; returncode=0
+released_task_8fd6e55bdee766f4,sympy__sympy-16792,WARN_REPLAN_GUARD,True,evaluated,True,True,,,,808.717,run_id=official_live_warn_replan_guard_1781635517; returncode=0
+released_task_c77d8a4dcc11bb0a,scikit-learn__scikit-learn-13135,WARN_REPLAN_GUARD,True,evaluated,True,True,,,,808.717,run_id=official_live_warn_replan_guard_1781635517; returncode=0
+released_task_55b2031312bdb4bf,django__django-15368,WARN_REPLAN_GUARD,True,evaluated,True,True,,,,808.717,run_id=official_live_warn_replan_guard_1781635517; returncode=0
+released_task_12d4bb2102dc2f56,matplotlib__matplotlib-20826,WARN_REPLAN_GUARD,False,official_empty_patch,False,False,,,empty_patch,808.717,run_id=official_live_warn_replan_guard_1781635517; returncode=0
+released_task_a919c7a583ab5954,django__django-11206,WARN_REPLAN_GUARD,True,evaluated,True,True,,,,808.717,run_id=official_live_warn_replan_guard_1781635517; returncode=0
+released_task_cab2f650d91f6374,scikit-learn__scikit-learn-10844,WARN_REPLAN_GUARD,True,evaluated,True,True,,,,808.717,run_id=official_live_warn_replan_guard_1781635517; returncode=0
+released_task_f45d0c7549f17baa,sympy__sympy-11618,WARN_REPLAN_GUARD,True,evaluated,True,True,,,,808.717,run_id=official_live_warn_replan_guard_1781635517; returncode=0
+released_task_58ded97d74649fee,sphinx-doc__sphinx-8551,WARN_REPLAN_GUARD,True,evaluated,True,True,,,,808.717,run_id=official_live_warn_replan_guard_1781635517; returncode=0
+released_task_6205c20339254394,django__django-13212,WARN_REPLAN_GUARD,True,evaluated,False,False,,,,808.717,run_id=official_live_warn_replan_guard_1781635517; returncode=0
+released_task_47d55095abaa47f9,django__django-16661,WARN_REPLAN_GUARD,True,evaluated,True,True,,,,808.717,run_id=official_live_warn_replan_guard_1781635517; returncode=0
+released_task_565e882d2900a39c,django__django-11734,WARN_REPLAN_GUARD,False,official_empty_patch,False,False,,,empty_patch,808.717,run_id=official_live_warn_replan_guard_1781635517; returncode=0
+released_task_3f855a12db0ec3f4,astropy__astropy-13398,WARN_REPLAN_GUARD,True,evaluated,False,False,,,,808.717,run_id=official_live_warn_replan_guard_1781635517; returncode=0
+released_task_c4961460689c63a7,django__django-12858,WARN_REPLAN_GUARD,True,evaluated,True,True,,,,808.717,run_id=official_live_warn_replan_guard_1781635517; returncode=0
+released_task_013d7986c4fc8511,django__django-14053,WARN_REPLAN_GUARD,True,evaluated,True,True,,,,808.717,run_id=official_live_warn_replan_guard_1781635517; returncode=0
+released_task_d8741bb288a4ade9,django__django-16256,WARN_REPLAN_GUARD,True,evaluated,False,False,,,,808.717,run_id=official_live_warn_replan_guard_1781635517; returncode=0
+released_task_75ab04e6eb0a46d4,scikit-learn__scikit-learn-14894,WARN_REPLAN_GUARD,True,evaluated,True,True,,,,808.717,run_id=official_live_warn_replan_guard_1781635517; returncode=0
+released_task_8add27b26abe316e,django__django-15104,WARN_REPLAN_GUARD,True,evaluated,True,True,,,,808.717,run_id=official_live_warn_replan_guard_1781635517; returncode=0
+released_task_32a884cb9e7541b3,django__django-16263,WARN_REPLAN_GUARD,False,official_empty_patch,False,False,,,empty_patch,808.717,run_id=official_live_warn_replan_guard_1781635517; returncode=0
+released_task_b31dca5c15fcb419,sympy__sympy-24443,WARN_REPLAN_GUARD,True,evaluated,True,True,,,,808.717,run_id=official_live_warn_replan_guard_1781635517; returncode=0
+released_task_2dc760e50d035174,django__django-13741,WARN_REPLAN_GUARD,True,evaluated,True,True,,,,808.717,run_id=official_live_warn_replan_guard_1781635517; returncode=0
+released_task_52c13e3266d4501c,pytest-dev__pytest-6197,WARN_REPLAN_GUARD,True,evaluated,True,True,,,,808.717,run_id=official_live_warn_replan_guard_1781635517; returncode=0
+released_task_df968c962ec62163,django__django-14376,WARN_REPLAN_GUARD,True,evaluated,True,True,,,,808.717,run_id=official_live_warn_replan_guard_1781635517; returncode=0
+released_task_c03acb33a56d22ef,django__django-14534,WARN_REPLAN_GUARD,True,evaluated,True,True,,,,808.717,run_id=official_live_warn_replan_guard_1781635517; returncode=0
+released_task_5921987a268cd3bf,sphinx-doc__sphinx-10614,WARN_REPLAN_GUARD,True,evaluated,False,False,,,,808.717,run_id=official_live_warn_replan_guard_1781635517; returncode=0
+released_task_10b7cdb276063e7b,pydata__xarray-4687,WARN_REPLAN_GUARD,True,evaluated,False,False,,,,808.717,run_id=official_live_warn_replan_guard_1781635517; returncode=0
+released_task_814570b719cd62fd,pydata__xarray-7393,WARN_REPLAN_GUARD,False,official_empty_patch,False,False,,,empty_patch,808.717,run_id=official_live_warn_replan_guard_1781635517; returncode=0
+released_task_710948da4ab7cfee,django__django-11951,WARN_REPLAN_GUARD,True,evaluated,True,True,,,,808.717,run_id=official_live_warn_replan_guard_1781635517; returncode=0
+released_task_850aca790a4743d9,django__django-15252,WARN_REPLAN_GUARD,True,evaluated,False,False,,,,808.717,run_id=official_live_warn_replan_guard_1781635517; returncode=0
+released_task_790aa72b63479f0d,django__django-11138,HARD_STOP_GUARD,False,official_empty_patch,False,False,,,empty_patch,179.681,run_id=official_live_hard_stop_guard_1781636326; returncode=0
+released_task_e0fc0264ae28642d,scikit-learn__scikit-learn-13439,HARD_STOP_GUARD,False,official_empty_patch,False,False,,,empty_patch,179.681,run_id=official_live_hard_stop_guard_1781636326; returncode=0
+released_task_8fd6e55bdee766f4,sympy__sympy-16792,HARD_STOP_GUARD,False,official_empty_patch,False,False,,,empty_patch,179.681,run_id=official_live_hard_stop_guard_1781636326; returncode=0
+released_task_c77d8a4dcc11bb0a,scikit-learn__scikit-learn-13135,HARD_STOP_GUARD,False,official_empty_patch,False,False,,,empty_patch,179.681,run_id=official_live_hard_stop_guard_1781636326; returncode=0
+released_task_55b2031312bdb4bf,django__django-15368,HARD_STOP_GUARD,False,official_empty_patch,False,False,,,empty_patch,179.681,run_id=official_live_hard_stop_guard_1781636326; returncode=0
+released_task_12d4bb2102dc2f56,matplotlib__matplotlib-20826,HARD_STOP_GUARD,False,official_empty_patch,False,False,,,empty_patch,179.681,run_id=official_live_hard_stop_guard_1781636326; returncode=0
+released_task_a919c7a583ab5954,django__django-11206,HARD_STOP_GUARD,True,evaluated,True,True,,,,179.681,run_id=official_live_hard_stop_guard_1781636326; returncode=0
+released_task_cab2f650d91f6374,scikit-learn__scikit-learn-10844,HARD_STOP_GUARD,True,evaluated,True,True,,,,179.681,run_id=official_live_hard_stop_guard_1781636326; returncode=0
+released_task_f45d0c7549f17baa,sympy__sympy-11618,HARD_STOP_GUARD,False,official_empty_patch,False,False,,,empty_patch,179.681,run_id=official_live_hard_stop_guard_1781636326; returncode=0
+released_task_58ded97d74649fee,sphinx-doc__sphinx-8551,HARD_STOP_GUARD,False,official_empty_patch,False,False,,,empty_patch,179.681,run_id=official_live_hard_stop_guard_1781636326; returncode=0
+released_task_6205c20339254394,django__django-13212,HARD_STOP_GUARD,False,official_empty_patch,False,False,,,empty_patch,179.681,run_id=official_live_hard_stop_guard_1781636326; returncode=0
+released_task_47d55095abaa47f9,django__django-16661,HARD_STOP_GUARD,True,evaluated,True,True,,,,179.681,run_id=official_live_hard_stop_guard_1781636326; returncode=0
+released_task_565e882d2900a39c,django__django-11734,HARD_STOP_GUARD,False,official_empty_patch,False,False,,,empty_patch,179.681,run_id=official_live_hard_stop_guard_1781636326; returncode=0
+released_task_3f855a12db0ec3f4,astropy__astropy-13398,HARD_STOP_GUARD,False,official_empty_patch,False,False,,,empty_patch,179.681,run_id=official_live_hard_stop_guard_1781636326; returncode=0
+released_task_c4961460689c63a7,django__django-12858,HARD_STOP_GUARD,True,evaluated,True,True,,,,179.681,run_id=official_live_hard_stop_guard_1781636326; returncode=0
+released_task_013d7986c4fc8511,django__django-14053,HARD_STOP_GUARD,False,official_empty_patch,False,False,,,empty_patch,179.681,run_id=official_live_hard_stop_guard_1781636326; returncode=0
+released_task_d8741bb288a4ade9,django__django-16256,HARD_STOP_GUARD,False,official_empty_patch,False,False,,,empty_patch,179.681,run_id=official_live_hard_stop_guard_1781636326; returncode=0
+released_task_75ab04e6eb0a46d4,scikit-learn__scikit-learn-14894,HARD_STOP_GUARD,False,official_empty_patch,False,False,,,empty_patch,179.681,run_id=official_live_hard_stop_guard_1781636326; returncode=0
+released_task_8add27b26abe316e,django__django-15104,HARD_STOP_GUARD,False,official_empty_patch,False,False,,,empty_patch,179.681,run_id=official_live_hard_stop_guard_1781636326; returncode=0
+released_task_32a884cb9e7541b3,django__django-16263,HARD_STOP_GUARD,False,official_empty_patch,False,False,,,empty_patch,179.681,run_id=official_live_hard_stop_guard_1781636326; returncode=0
+released_task_b31dca5c15fcb419,sympy__sympy-24443,HARD_STOP_GUARD,False,official_empty_patch,False,False,,,empty_patch,179.681,run_id=official_live_hard_stop_guard_1781636326; returncode=0
+released_task_2dc760e50d035174,django__django-13741,HARD_STOP_GUARD,False,official_empty_patch,False,False,,,empty_patch,179.681,run_id=official_live_hard_stop_guard_1781636326; returncode=0
+released_task_52c13e3266d4501c,pytest-dev__pytest-6197,HARD_STOP_GUARD,False,official_empty_patch,False,False,,,empty_patch,179.681,run_id=official_live_hard_stop_guard_1781636326; returncode=0
+released_task_df968c962ec62163,django__django-14376,HARD_STOP_GUARD,True,evaluated,False,False,,,,179.681,run_id=official_live_hard_stop_guard_1781636326; returncode=0
+released_task_c03acb33a56d22ef,django__django-14534,HARD_STOP_GUARD,False,official_empty_patch,False,False,,,empty_patch,179.681,run_id=official_live_hard_stop_guard_1781636326; returncode=0
+released_task_5921987a268cd3bf,sphinx-doc__sphinx-10614,HARD_STOP_GUARD,False,official_empty_patch,False,False,,,empty_patch,179.681,run_id=official_live_hard_stop_guard_1781636326; returncode=0
+released_task_10b7cdb276063e7b,pydata__xarray-4687,HARD_STOP_GUARD,False,official_empty_patch,False,False,,,empty_patch,179.681,run_id=official_live_hard_stop_guard_1781636326; returncode=0
+released_task_814570b719cd62fd,pydata__xarray-7393,HARD_STOP_GUARD,False,official_empty_patch,False,False,,,empty_patch,179.681,run_id=official_live_hard_stop_guard_1781636326; returncode=0
+released_task_710948da4ab7cfee,django__django-11951,HARD_STOP_GUARD,False,official_empty_patch,False,False,,,empty_patch,179.681,run_id=official_live_hard_stop_guard_1781636326; returncode=0
+released_task_850aca790a4743d9,django__django-15252,HARD_STOP_GUARD,False,official_empty_patch,False,False,,,empty_patch,179.681,run_id=official_live_hard_stop_guard_1781636326; returncode=0

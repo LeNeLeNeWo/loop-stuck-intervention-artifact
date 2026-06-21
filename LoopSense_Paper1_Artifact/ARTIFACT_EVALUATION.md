@@ -1,0 +1,3 @@
+# Artifact Evaluation Notes
+
+This package supports paper-result reproduction and headline checks. It does not rerun original agent trajectories, restore historical prefixes, or release raw independent annotation materials. API-assisted replan outputs are included as sanitized prompt-level evidence; raw API responses and private prefix mappings are excluded. A small live guard-policy pilot is included as sanitized supplementary evidence, and a preregistered official-oracle live guard experiment is included as sanitized task-outcome evidence. Raw live trajectories, full benchmark workspaces, Docker caches, and credentials are excluded.

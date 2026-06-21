@@ -1,0 +1,13 @@
+{
+  "generated_at": "2026-06-15T03:10:18Z",
+  "mode": "pilot",
+  "task_count": 10,
+  "arms": [
+    "NO_GUARD",
+    "WARN_REPLAN_GUARD",
+    "HARD_STOP_GUARD"
+  ],
+  "max_steps": 10,
+  "timeout_minutes": 20,
+  "resume": true
+}

@@ -1,0 +1,5 @@
+﻿dataset,dataset_role,trajectory_count,contains_pi_count,contains_pi_pct,contains_hn_count,contains_hn_pct,contains_uc_count,contains_uc_pct,contains_both_hn_and_uc_count,contains_both_hn_and_uc_pct,contains_pi_but_no_uc_count,contains_pi_but_no_uc_pct,contains_hn_but_no_uc_count,contains_hn_but_no_uc_pct
+Natural500,natural-distribution control,500,492,0.984,165,0.33,134,0.268,71,0.142,363,0.726,94,0.188
+Final500,enriched difficult loop-heavy set,500,499,0.998,387,0.774,291,0.582,241,0.482,209,0.418,146,0.292
+StressFresh100,clean stress challenge,100,92,0.92,46,0.46,82,0.82,30,0.3,18,0.18,16,0.16
+OpenHandsExternal330,external long-horizon generalization set,330,329,0.996969696969697,50,0.15151515151515152,4,0.012121212121212121,3,0.00909090909090909,326,0.9878787878787879,47,0.14242424242424243

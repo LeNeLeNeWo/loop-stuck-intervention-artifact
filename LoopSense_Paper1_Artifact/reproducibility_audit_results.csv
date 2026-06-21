@@ -1,0 +1,137 @@
+﻿check,status,path,detail
+root_required,PASS,README.md,required root file
+root_required,PASS,LICENSE,required root file
+root_required,PASS,CITATION.cff,required root file
+root_required,PASS,DATASET_CARD.md,required root file
+root_required,PASS,ARTIFACT_EVALUATION.md,required root file
+root_required,PASS,anonymization_and_release_notes.md,required root file
+root_required,PASS,requirements.txt,required root file
+root_required,PASS,environment.yml,required root file
+root_required,PASS,manifest_sha256.csv,required root file
+root_required,PASS,artifact_integrity_report.md,required root file
+root_required,PASS,release_exclusion_report.md,required root file
+dataset_files,PASS,data/final_adjudicated/Final500/README.md,required nonempty pool file
+dataset_files,PASS,data/final_adjudicated/Final500/span_labels.csv,required nonempty pool file
+dataset_files,PASS,data/final_adjudicated/Final500/step_labels.csv,required nonempty pool file
+dataset_files,PASS,data/final_adjudicated/Natural500/README.md,required nonempty pool file
+dataset_files,PASS,data/final_adjudicated/Natural500/span_labels.csv,required nonempty pool file
+dataset_files,PASS,data/final_adjudicated/Natural500/step_labels.csv,required nonempty pool file
+dataset_files,PASS,data/final_adjudicated/OpenHandsExternal330/README.md,required nonempty pool file
+dataset_files,PASS,data/final_adjudicated/OpenHandsExternal330/span_labels.csv,required nonempty pool file
+dataset_files,PASS,data/final_adjudicated/OpenHandsExternal330/step_labels.csv,required nonempty pool file
+dataset_files,PASS,data/final_adjudicated/StressFresh100/README.md,required nonempty pool file
+dataset_files,PASS,data/final_adjudicated/StressFresh100/span_labels.csv,required nonempty pool file
+dataset_files,PASS,data/final_adjudicated/StressFresh100/step_labels.csv,required nonempty pool file
+pool_steps,PASS,data/final_adjudicated/Natural500/step_labels.csv,"steps=8550, expected=8550"
+pool_trajectories,PASS,data/final_adjudicated/Natural500/step_labels.csv,"trajectories=500, expected=500"
+pool_uc_prevalence,PASS,data/final_adjudicated/Natural500/step_labels.csv,"uc_prevalence=0.268, expected=0.268"
+pool_steps,PASS,data/final_adjudicated/Final500/step_labels.csv,"steps=26014, expected=26014"
+pool_trajectories,PASS,data/final_adjudicated/Final500/step_labels.csv,"trajectories=500, expected=500"
+pool_uc_prevalence,PASS,data/final_adjudicated/Final500/step_labels.csv,"uc_prevalence=0.582, expected=0.582"
+pool_steps,PASS,data/final_adjudicated/StressFresh100/step_labels.csv,"steps=3132, expected=3132"
+pool_trajectories,PASS,data/final_adjudicated/StressFresh100/step_labels.csv,"trajectories=100, expected=100"
+pool_uc_prevalence,PASS,data/final_adjudicated/StressFresh100/step_labels.csv,"uc_prevalence=0.820, expected=0.820"
+pool_steps,PASS,data/final_adjudicated/OpenHandsExternal330/step_labels.csv,"steps=51010, expected=51010"
+pool_trajectories,PASS,data/final_adjudicated/OpenHandsExternal330/step_labels.csv,"trajectories=330, expected=330"
+pool_uc_prevalence,PASS,data/final_adjudicated/OpenHandsExternal330/step_labels.csv,"uc_prevalence=0.012, expected=0.012"
+required_script,PASS,scripts/audit/audit_dataset_integrity.py,required script
+required_script,PASS,scripts/audit/load_paper1_datasets.py,required script
+required_script,PASS,scripts/construct_mismatch/build_construct_mismatch_analysis.py,required script
+required_script,PASS,scripts/construct_mismatch/length_robustness_checks.py,required script
+required_script,PASS,scripts/raw_enrichment/enrich_normalized_steps_with_raw_fields.py,required script
+required_script,PASS,scripts/intervention_risk/build_rich_detector_evaluation.py,required script
+required_script,PASS,scripts/intervention_validation/check_intervention_feasibility.py,required script
+required_script,PASS,scripts/intervention_validation/build_stop_counterfactual.py,required script
+required_script,PASS,scripts/intervention_validation/build_prefix_branch_experiment.py,required script
+required_script,PASS,scripts/intervention_validation/run_prefix_branch_experiment.py,required script
+required_script,PASS,scripts/intervention_validation/analyze_prefix_branch_results.py,required script
+required_script,PASS,scripts/live_intervention/check_live_replay_feasibility.py,required script
+required_script,PASS,scripts/live_intervention/select_prefix_branch_sample.py,required script
+required_script,PASS,scripts/live_intervention/run_prefix_branch_experiment.py,required script
+required_script,PASS,scripts/live_intervention/analyze_prefix_branch_results.py,required script
+required_script,PASS,scripts/api_replan_intervention/check_deepseek_api_env.py,required script
+required_script,PASS,scripts/api_replan_intervention/build_api_replan_prefix_dataset.py,required script
+required_script,PASS,scripts/api_replan_intervention/run_deepseek_api_replan_experiment.py,required script
+required_script,PASS,scripts/api_replan_intervention/analyze_api_replan_results.py,required script
+required_script,PASS,scripts/api_replan_intervention/build_api_replan_figures.py,required script
+required_script,PASS,scripts/synthesis/extract_paper_findings.py,required script
+required_script,PASS,scripts/synthesis/build_main_paper_tables.py,required script
+required_script,PASS,scripts/synthesis/build_publication_figures.py,required script
+required_script,PASS,scripts/release/build_paper1_artifact.py,required script
+required_script,PASS,scripts/release/audit_and_test_paper1_artifact.py,required script
+required_expected_output,PASS,outputs/expected/paper_tables/table1_evidence_pools.csv,required expected output
+required_expected_output,PASS,outputs/expected/paper_tables/table2_construct_non_equivalence.csv,required expected output
+required_expected_output,PASS,outputs/expected/paper_tables/table3_focused_detector_risk_comparison.csv,required expected output
+required_expected_output,PASS,outputs/expected/paper_tables/table4_near_f1_risk_divergence.csv,required expected output
+required_expected_output,PASS,outputs/expected/paper_figures/fig1.pdf,required expected output
+required_expected_output,PASS,outputs/expected/paper_figures/fig1.png,required expected output
+required_expected_output,PASS,outputs/expected/paper_figures/fig1.svg,required expected output
+required_expected_output,PASS,outputs/expected/paper_figures/fig2.pdf,required expected output
+required_expected_output,PASS,outputs/expected/paper_figures/fig2.png,required expected output
+required_expected_output,PASS,outputs/expected/paper_figures/fig2.svg,required expected output
+required_expected_output,PASS,outputs/expected/paper_figures/fig3.pdf,required expected output
+required_expected_output,PASS,outputs/expected/paper_figures/fig3.png,required expected output
+required_expected_output,PASS,outputs/expected/paper_figures/fig3.svg,required expected output
+required_expected_output,PASS,outputs/expected/paper_figures/fig4.pdf,required expected output
+required_expected_output,PASS,outputs/expected/paper_figures/fig4.png,required expected output
+required_expected_output,PASS,outputs/expected/paper_figures/fig4.svg,required expected output
+required_expected_output,PASS,outputs/expected/paper_figures/fig5_stop_counterfactual_tradeoff.pdf,required expected output
+required_expected_output,PASS,outputs/expected/paper_figures/fig5_stop_counterfactual_tradeoff.png,required expected output
+required_expected_output,PASS,outputs/expected/paper_figures/fig5_stop_counterfactual_tradeoff.svg,required expected output
+required_expected_output,PASS,outputs/expected/construct_mismatch/construct_prevalence_by_dataset.csv,required expected output
+required_expected_output,PASS,outputs/expected/construct_mismatch/length_vs_constructs.csv,required expected output
+required_expected_output,PASS,outputs/expected/construct_mismatch/construct_mismatch_report.md,required expected output
+required_expected_output,PASS,outputs/expected/length_robustness/length_robustness_summary.csv,required expected output
+required_expected_output,PASS,outputs/expected/length_robustness/within_dataset_longest_decile.csv,required expected output
+required_expected_output,PASS,outputs/expected/length_robustness/excluding_openhands_longest_decile.csv,required expected output
+required_expected_output,PASS,outputs/expected/length_robustness/length_construct_correlations.csv,required expected output
+required_expected_output,PASS,outputs/expected/length_robustness/length_robustness_report.md,required expected output
+required_expected_output,PASS,outputs/expected/intervention_risk_rich_detectors/detector_metrics_by_dataset.csv,required expected output
+required_expected_output,PASS,outputs/expected/intervention_risk_rich_detectors/near_f1_risk_pairs.csv,required expected output
+required_expected_output,PASS,outputs/expected/intervention_risk_rich_detectors/trigger_location_distribution.csv,required expected output
+required_expected_output,PASS,outputs/expected/intervention_risk_rich_detectors/bootstrap_ci.csv,required expected output
+required_expected_output,PASS,outputs/expected/intervention_risk_rich_detectors/detector_availability.csv,required expected output
+required_expected_output,PASS,outputs/expected/intervention_risk_rich_detectors/intervention_risk_rich_detector_report.md,required expected output
+required_expected_output,PASS,outputs/expected/intervention_validation/feasibility_report.md,required expected output
+required_expected_output,PASS,outputs/expected/intervention_validation/stop_counterfactual_triggers.csv,required expected output
+required_expected_output,PASS,outputs/expected/intervention_validation/stop_counterfactual_summary_by_detector.csv,required expected output
+required_expected_output,PASS,outputs/expected/intervention_validation/stop_counterfactual_summary_by_location.csv,required expected output
+required_expected_output,PASS,outputs/expected/intervention_validation/stop_counterfactual_near_f1_pairs.csv,required expected output
+required_expected_output,PASS,outputs/expected/intervention_validation/stop_counterfactual_report.md,required expected output
+required_expected_output,PASS,outputs/expected/intervention_validation/intervention_validation_master_report.md,required expected output
+required_expected_output,PASS,outputs/expected/intervention_validation/prefix_branch_feasibility_only.md,required expected output
+required_expected_output,PASS,outputs/expected/paper_findings/headline_findings.csv,required expected output
+required_expected_output,PASS,outputs/expected/paper_findings/headline_findings.md,required expected output
+required_expected_output,PASS,outputs/expected/paper_findings/strongest_near_f1_risk_pairs.csv,required expected output
+required_expected_output,PASS,outputs/expected/paper_findings/strongest_near_f1_risk_pairs.md,required expected output
+required_expected_output,PASS,outputs/expected/paper_findings/detector_family_summary.csv,required expected output
+required_expected_output,PASS,outputs/expected/paper_findings/detector_family_summary.md,required expected output
+required_expected_output,PASS,outputs/expected/paper_findings/dataset_role_summary.csv,required expected output
+required_expected_output,PASS,outputs/expected/paper_findings/dataset_role_summary.md,required expected output
+required_expected_output,PASS,outputs/expected/live_intervention/feasibility_report.md,required expected output
+required_expected_output,PASS,outputs/expected/live_intervention/feasibility_report.json,required expected output
+required_expected_output,PASS,outputs/expected/live_intervention/live_intervention_not_feasible.md,required expected output
+required_expected_output,PASS,outputs/expected/live_intervention/prefix_branch_sample.csv,required expected output
+required_expected_output,PASS,outputs/expected/live_intervention/prefix_branch_results.csv,required expected output
+required_expected_output,PASS,outputs/expected/live_intervention/prefix_branch_summary.csv,required expected output
+required_expected_output,PASS,outputs/expected/live_intervention/live_intervention_report.md,required expected output
+required_expected_output,PASS,outputs/expected/live_intervention/sampling_report.md,required expected output
+required_expected_output,PASS,outputs/expected/live_intervention/run_report.md,required expected output
+required_expected_output,PASS,outputs/expected/provenance_audit/provenance_summary_by_pool.csv,required expected output
+required_expected_output,PASS,outputs/expected/provenance_audit/provenance_audit_report.md,required expected output
+required_expected_output,PASS,outputs/expected/api_replan_intervention/api_env_check.md,required expected output
+required_expected_output,PASS,outputs/expected/api_replan_intervention/prefix_replan_sample.csv,required expected output
+required_expected_output,PASS,outputs/expected/api_replan_intervention/prefix_replan_prompts.jsonl,required expected output
+required_expected_output,PASS,outputs/expected/api_replan_intervention/api_replan_parsed_responses.csv,required expected output
+required_expected_output,PASS,outputs/expected/api_replan_intervention/api_replan_summary_by_group.csv,required expected output
+required_expected_output,PASS,outputs/expected/api_replan_intervention/api_replan_pairwise_effects.csv,required expected output
+required_expected_output,PASS,outputs/expected/api_replan_intervention/api_replan_report.md,required expected output
+required_expected_output,PASS,outputs/expected/api_replan_intervention/api_call_log.csv,required expected output
+required_expected_output,PASS,outputs/expected/api_replan_intervention/fig6_api_replan_intervention.pdf,required expected output
+required_expected_output,PASS,outputs/expected/api_replan_intervention/fig6_api_replan_intervention.png,required expected output
+required_expected_output,PASS,outputs/expected/api_replan_intervention/fig6_api_replan_intervention.svg,required expected output
+required_expected_output,PASS,outputs/expected/api_replan_intervention/table_api_replan_summary.csv,required expected output
+required_expected_output,PASS,outputs/expected/api_replan_intervention/table_api_replan_pairwise_effects.csv,required expected output
+required_expected_output,PASS,outputs/expected/api_replan_intervention/api_replan_manifest.json,required expected output
+manifest,PASS,manifest_sha256.csv,checked 244 entries
+reproduction_test,PASS,tests/test_reproduce_key_outputs.py,headline reproducibility test passed; raw-runtime-dependent reruns are partial by design

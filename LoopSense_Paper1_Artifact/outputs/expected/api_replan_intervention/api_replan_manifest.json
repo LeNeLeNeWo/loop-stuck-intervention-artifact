@@ -1,0 +1,16 @@
+{
+  "experiment": "paper1_api_replan_intervention",
+  "prompt_rows": 360,
+  "ok_parsed_rows": 360,
+  "json_parse_success_rate": 1.0,
+  "prefixes_with_complete_pairs": 180,
+  "outputs": [
+    "api_replan_parsed_responses.csv",
+    "api_call_log.csv",
+    "api_replan_scored_responses.csv",
+    "api_replan_summary_by_group.csv",
+    "api_replan_pairwise_effects.csv",
+    "table_api_replan_summary.csv",
+    "table_api_replan_pairwise_effects.csv"
+  ]
+}

@@ -1,0 +1,187 @@
+{
+  "decision": "NOT_FEASIBLE",
+  "status": {
+    "raw_trajectory_logs": {
+      "available": true,
+      "evidence": [
+        "data/raw",
+        "logs"
+      ]
+    },
+    "task_metadata": {
+      "available": true,
+      "evidence": [
+        "data/raw/swe"
+      ]
+    },
+    "repo_checkouts": {
+      "available": false,
+      "evidence": []
+    },
+    "action_replay": {
+      "available": false,
+      "evidence": []
+    },
+    "swe_runner": {
+      "available": false,
+      "evidence": []
+    },
+    "openhands_runner": {
+      "available": false,
+      "evidence": []
+    },
+    "model_config": {
+      "available": true,
+      "evidence": [
+        "configs",
+        ".env.example"
+      ]
+    },
+    "test_oracle": {
+      "available": true,
+      "evidence": [
+        "tests"
+      ]
+    },
+    "intervention_injection": {
+      "available": true,
+      "evidence": [
+        "scripts/paper1_live_intervention/run_prefix_branch_experiment.py"
+      ]
+    },
+    "model_credentials": {
+      "available": true,
+      "evidence": [
+        "<CREDENTIAL_ENV_VAR_NAME_WITHHELD>"
+      ]
+    }
+  },
+  "primary_inputs": [
+    {
+      "input": "normalized_steps",
+      "exists": true,
+      "size_bytes": 78897881,
+      "columns": [
+        "dataset",
+        "dataset_role",
+        "dataset_subsource",
+        "source_file",
+        "source_format",
+        "row_number",
+        "trajectory_id",
+        "task_id",
+        "step_id_raw",
+        "step_index",
+        "label_raw",
+        "label_norm",
+        "span_label_raw",
+        "span_label_norm",
+        "hard_negative_raw",
+        "hard_negative"
+      ],
+      "path": "outputs/paper1_audit/normalized_steps.csv"
+    },
+    {
+      "input": "normalized_spans",
+      "exists": true,
+      "size_bytes": 2838876,
+      "columns": [
+        "dataset",
+        "dataset_role",
+        "dataset_subsource",
+        "source_file",
+        "source_format",
+        "span_source",
+        "row_number",
+        "trajectory_id",
+        "span_id",
+        "start_step_index",
+        "end_step_index",
+        "span_label_raw",
+        "span_label_norm",
+        "hard_negative_raw",
+        "hard_negative",
+        "productive_iteration_flag"
+      ],
+      "path": "outputs/paper1_audit/normalized_spans.csv"
+    },
+    {
+      "input": "stop_counterfactual_triggers",
+      "exists": true,
+      "size_bytes": 62693661,
+      "columns": [
+        "trigger_id",
+        "dataset",
+        "trajectory_id",
+        "step_index",
+        "detector",
+        "detector_family",
+        "detector_config",
+        "trigger_location_type",
+        "trajectory_final_success",
+        "current_prefix_success",
+        "post_trigger_success",
+        "post_trigger_validation_event",
+        "remaining_steps_after_trigger",
+        "remaining_productive_steps_after_trigger",
+        "remaining_PI_steps_after_trigger",
+        "remaining_HN_steps_after_trigger"
+      ],
+      "path": "outputs/paper1_intervention_validation/stop_counterfactual_triggers.csv"
+    },
+    {
+      "input": "detector_metrics",
+      "exists": true,
+      "size_bytes": 19633,
+      "columns": [
+        "dataset",
+        "dataset_role",
+        "detector",
+        "detector_family",
+        "threshold/config",
+        "uses_annotation_signal_proxy",
+        "F1",
+        "UC_recall",
+        "PIIR",
+        "HN_FPR",
+        "burden",
+        "latency_mean",
+        "latency_median",
+        "latency_p90",
+        "n_triggers",
+        "positive_label_definition"
+      ],
+      "path": "outputs/paper1_intervention_risk_rich_detectors/detector_metrics_by_dataset.csv"
+    },
+    {
+      "input": "enriched_steps",
+      "exists": true,
+      "size_bytes": 192473603,
+      "columns": [
+        "dataset",
+        "dataset_role",
+        "dataset_subsource",
+        "source_file",
+        "source_format",
+        "row_number",
+        "trajectory_id",
+        "task_id",
+        "step_id_raw",
+        "step_index",
+        "label_raw",
+        "label_norm",
+        "span_label_raw",
+        "span_label_norm",
+        "hard_negative_raw",
+        "hard_negative"
+      ],
+      "path": "outputs/paper1_raw_enrichment/enriched_steps.csv"
+    }
+  ],
+  "missing": [
+    "repo_checkouts",
+    "action_replay",
+    "swe_runner",
+    "openhands_runner"
+  ]
+}

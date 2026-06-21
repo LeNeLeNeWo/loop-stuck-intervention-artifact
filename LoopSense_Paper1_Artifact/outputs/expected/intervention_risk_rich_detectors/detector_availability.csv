@@ -1,0 +1,37 @@
+dataset,detector_family,available,eligible_rows_with_required_fields,total_rows,required_field_coverage,reason
+Natural500,max_step_guard,True,8550,8550,1.0,Step order is available.
+Natural500,exact_action_repeat_k,False,0,8550,0.0,Requires action_key
+Natural500,tool_repeat_k,False,0,8550,0.0,Requires tool_key
+Natural500,tool_sequence_repeat,False,0,8550,0.0,Requires tool_key
+Natural500,action_observation_repeat,False,0,8550,0.0,Requires action_obs_key
+Natural500,action_observation_similarity,False,0,8550,0.0,"Requires action text, observation/output text, and sklearn TF-IDF support."
+Natural500,error_signature_repeat_k,False,0,8550,0.0,Requires error_key
+Natural500,file_revisit_guard,False,0,8550,0.0,Requires file_path or mentioned_files.
+Natural500,repeat_without_progress_guard,False,0,8550,0.0,Requires action/tool repetition base plus runtime or signal progress proxy.
+Enriched500,max_step_guard,True,26014,26014,1.0,Step order is available.
+Enriched500,exact_action_repeat_k,True,16838,26014,0.6472668563081417,Requires action_key
+Enriched500,tool_repeat_k,False,0,26014,0.0,Requires tool_key
+Enriched500,tool_sequence_repeat,False,0,26014,0.0,Requires tool_key
+Enriched500,action_observation_repeat,True,16105,26014,0.6190897209195049,Requires action_obs_key
+Enriched500,action_observation_similarity,True,16105,26014,0.6190897209195049,"Requires action text, observation/output text, and sklearn TF-IDF support."
+Enriched500,error_signature_repeat_k,True,7294,26014,0.2803874836626432,Requires error_key
+Enriched500,file_revisit_guard,True,15835,26014,0.6087106942415622,Requires file_path or mentioned_files.
+Enriched500,repeat_without_progress_guard,True,16838,26014,0.6472668563081417,Requires action/tool repetition base plus runtime or signal progress proxy.
+StressFresh100,max_step_guard,True,3132,3132,1.0,Step order is available.
+StressFresh100,exact_action_repeat_k,True,3132,3132,1.0,Requires action_key
+StressFresh100,tool_repeat_k,True,3132,3132,1.0,Requires tool_key
+StressFresh100,tool_sequence_repeat,True,3132,3132,1.0,Requires tool_key
+StressFresh100,action_observation_repeat,True,3032,3132,0.9680715197956578,Requires action_obs_key
+StressFresh100,action_observation_similarity,True,3032,3132,0.9680715197956578,"Requires action text, observation/output text, and sklearn TF-IDF support."
+StressFresh100,error_signature_repeat_k,True,1401,3132,0.44731800766283525,Requires error_key
+StressFresh100,file_revisit_guard,True,2992,3132,0.9553001277139208,Requires file_path or mentioned_files.
+StressFresh100,repeat_without_progress_guard,True,3049,3132,0.973499361430396,Requires action/tool repetition base plus runtime or signal progress proxy.
+OpenHandsExternal330,max_step_guard,True,51010,51010,1.0,Step order is available.
+OpenHandsExternal330,exact_action_repeat_k,False,0,51010,0.0,Requires action_key
+OpenHandsExternal330,tool_repeat_k,False,0,51010,0.0,Requires tool_key
+OpenHandsExternal330,tool_sequence_repeat,False,0,51010,0.0,Requires tool_key
+OpenHandsExternal330,action_observation_repeat,False,0,51010,0.0,Requires action_obs_key
+OpenHandsExternal330,action_observation_similarity,False,0,51010,0.0,"Requires action text, observation/output text, and sklearn TF-IDF support."
+OpenHandsExternal330,error_signature_repeat_k,False,0,51010,0.0,Requires error_key
+OpenHandsExternal330,file_revisit_guard,False,0,51010,0.0,Requires file_path or mentioned_files.
+OpenHandsExternal330,repeat_without_progress_guard,False,0,51010,0.0,Requires action/tool repetition base plus runtime or signal progress proxy.

@@ -1,0 +1,26 @@
+{
+  "offline_possible": true,
+  "live_possible": false,
+  "recommendation": "offline stop-counterfactual only",
+  "final_success_columns_primary": [
+    "unresolved_flag",
+    "unresolved_flag",
+    "unresolved_flag"
+  ],
+  "validation_columns_primary": [],
+  "missing_live_requirements": [
+    "task_metadata",
+    "repo_checkouts",
+    "agent_runner",
+    "test_oracle"
+  ],
+  "offline_fields": {
+    "normalized steps": true,
+    "normalized spans": true,
+    "detector metrics": true,
+    "trigger location distribution": true,
+    "step indices and trajectory ids": true,
+    "span labels PI/HN/UC": true,
+    "step-level progress signals": true
+  }
+}

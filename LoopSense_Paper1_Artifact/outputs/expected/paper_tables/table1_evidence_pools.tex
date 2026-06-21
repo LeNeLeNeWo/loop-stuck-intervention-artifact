@@ -1,0 +1,14 @@
+\begin{table}
+\caption{Evidence pools used in the Paper1 analysis.}
+\label{tab:table1_evidence_pools}
+\begin{tabular}{llrrrrrrll}
+\toprule
+Evidence pool & Source framework & Trajectories & Steps & Avg. steps & PI prevalence & HN prevalence & UC prevalence & Sampling role & Main use \\
+\midrule
+Natural500 & SWE-agent / LoopBench-Agent & 500 & 8550 & 17.100000 & 0.984000 & 0.330000 & 0.268000 & Natural-distribution control & Estimate construct behavior in a less enriched SWE-agent pool. \\
+Enriched500 & SWE-agent / LoopBench-Agent & 500 & 26014 & 52.028000 & 0.998000 & 0.774000 & 0.582000 & Enriched difficult loop-heavy set & Study difficult loop-heavy cases and HN/UC boundary behavior. \\
+StressFresh100 & SWE-agent / LoopBench-Agent & 100 & 3132 & 31.320000 & 0.920000 & 0.460000 & 0.820000 & Clean stress challenge & Stress-test intervention risk and UC/HN boundary cases. \\
+OpenHandsExternal330 & OpenHands external & 330 & 51010 & 154.576000 & 0.997000 & 0.152000 & 0.012000 & External long-horizon generalization set & Probe external long-horizon generalization and length effects. \\
+\bottomrule
+\end{tabular}
+\end{table}

@@ -1,0 +1,6 @@
+| Dataset              |   PI prevalence |   HN prevalence |   UC prevalence | HN-only     | UC-only    | HN+UC mixed   | Main interpretation                                                                |
+|:---------------------|----------------:|----------------:|----------------:|:------------|:-----------|:--------------|:-----------------------------------------------------------------------------------|
+| Natural500           |           0.984 |           0.33  |           0.268 | 94 (0.188)  | 63 (0.126) | 71 (0.142)    | Natural control still contains PI/HN/UC mixtures, but with lower UC concentration. |
+| Enriched500          |           0.998 |           0.774 |           0.582 | 146 (0.292) | 50 (0.100) | 241 (0.482)   | HN-only, UC-only, and mixed cases coexist, so HN and UC should not be collapsed.   |
+| StressFresh100       |           0.92  |           0.46  |           0.82  | 16 (0.160)  | 52 (0.520) | 30 (0.300)    | High UC prevalence with remaining HN cases makes this a focused stress pool.       |
+| OpenHandsExternal330 |           0.997 |           0.152 |           0.012 | 47 (0.142)  | 1 (0.003)  | 3 (0.009)     | Long-horizon PI is common while UC is rare in this external pool.                  |

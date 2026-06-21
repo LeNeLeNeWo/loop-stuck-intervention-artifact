@@ -1,0 +1,14 @@
+{
+  "generated_at": "2026-06-16T18:26:19Z",
+  "mode": "task_range",
+  "task_range": "42:42",
+  "tasks": 1,
+  "arms": [
+    "NO_GUARD",
+    "WARN_REPLAN_GUARD",
+    "HARD_STOP_GUARD"
+  ],
+  "max_steps": 50,
+  "timeout_minutes": 45,
+  "resume": true
+}
