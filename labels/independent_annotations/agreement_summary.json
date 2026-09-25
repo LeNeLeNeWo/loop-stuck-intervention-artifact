@@ -1,0 +1,316 @@
+{
+  "workbook_sha256": {
+    "coder_01/标注记录.xlsx": "30681632785a27c0425eb452411580612541617381e9cb3e25f567a90ba65b95",
+    "coder_02/标注记录.xlsx": "53cbba495675df09a27a1a62a0233dcd867cf8d8f44fb957cd963275769106a6"
+  },
+  "pools": {
+    "Natural500": {
+      "trajectories": 500,
+      "step_agreement": {
+        "paired_records": 8550,
+        "agreeing_records": 7557,
+        "raw_agreement": 0.883859649122807,
+        "cohens_kappa": 0.7374116876827936,
+        "coder_01_counts": {
+          "progress": 5866,
+          "stagnant": 2637,
+          "uncertain": 47
+        },
+        "coder_02_counts": {
+          "progress": 5671,
+          "stagnant": 2845,
+          "uncertain": 34
+        },
+        "confusion_matrix": {
+          "progress": {
+            "progress": 5282,
+            "stagnant": 576,
+            "uncertain": 8
+          },
+          "stagnant": {
+            "progress": 368,
+            "stagnant": 2259,
+            "uncertain": 10
+          },
+          "uncertain": {
+            "progress": 21,
+            "stagnant": 10,
+            "uncertain": 16
+          }
+        }
+      },
+      "span_agreement": {
+        "paired_records": 1222,
+        "agreeing_records": 1189,
+        "raw_agreement": 0.9729950900163666,
+        "cohens_kappa": 0.9138152861069199,
+        "coder_01_counts": {
+          "productive_iteration": 996,
+          "unproductive_cycle": 226
+        },
+        "coder_02_counts": {
+          "productive_iteration": 973,
+          "unproductive_cycle": 249
+        },
+        "confusion_matrix": {
+          "productive_iteration": {
+            "productive_iteration": 968,
+            "unproductive_cycle": 28
+          },
+          "unproductive_cycle": {
+            "productive_iteration": 5,
+            "unproductive_cycle": 221
+          }
+        },
+        "coder_01_spans": 1286,
+        "coder_02_spans": 1263,
+        "coder_01_matched_fraction": 0.9502332814930016,
+        "coder_02_matched_fraction": 0.9675376088677752,
+        "coder_01_unmatched_spans": 64,
+        "coder_02_unmatched_spans": 41,
+        "identical_endpoint_pairs": 948,
+        "identical_endpoint_fraction": 0.7757774140752864,
+        "median_start_absolute_deviation": 0.0,
+        "median_end_absolute_deviation": 0.0
+      },
+      "trajectories_without_spans": {
+        "coder_01": [
+          "Natural500_T000166",
+          "Natural500_T000227",
+          "Natural500_T000280"
+        ],
+        "coder_02": [
+          "Natural500_T000166",
+          "Natural500_T000227",
+          "Natural500_T000280"
+        ]
+      }
+    },
+    "Final500": {
+      "trajectories": 500,
+      "step_agreement": {
+        "paired_records": 26014,
+        "agreeing_records": 22819,
+        "raw_agreement": 0.8771815176443454,
+        "cohens_kappa": 0.7578058447795274,
+        "coder_01_counts": {
+          "progress": 12834,
+          "stagnant": 12997,
+          "uncertain": 183
+        },
+        "coder_02_counts": {
+          "progress": 12347,
+          "stagnant": 13469,
+          "uncertain": 198
+        },
+        "confusion_matrix": {
+          "progress": {
+            "progress": 11032,
+            "stagnant": 1751,
+            "uncertain": 51
+          },
+          "stagnant": {
+            "progress": 1281,
+            "stagnant": 11678,
+            "uncertain": 38
+          },
+          "uncertain": {
+            "progress": 34,
+            "stagnant": 40,
+            "uncertain": 109
+          }
+        }
+      },
+      "span_agreement": {
+        "paired_records": 2639,
+        "agreeing_records": 2464,
+        "raw_agreement": 0.9336870026525199,
+        "cohens_kappa": 0.8572783042935026,
+        "coder_01_counts": {
+          "productive_iteration": 1677,
+          "unproductive_cycle": 962
+        },
+        "coder_02_counts": {
+          "productive_iteration": 1664,
+          "unproductive_cycle": 975
+        },
+        "confusion_matrix": {
+          "productive_iteration": {
+            "productive_iteration": 1583,
+            "unproductive_cycle": 94
+          },
+          "unproductive_cycle": {
+            "productive_iteration": 81,
+            "unproductive_cycle": 881
+          }
+        },
+        "coder_01_spans": 3209,
+        "coder_02_spans": 3117,
+        "coder_01_matched_fraction": 0.8223745715176067,
+        "coder_02_matched_fraction": 0.8466474173885146,
+        "coder_01_unmatched_spans": 570,
+        "coder_02_unmatched_spans": 478,
+        "identical_endpoint_pairs": 1915,
+        "identical_endpoint_fraction": 0.7256536566881394,
+        "median_start_absolute_deviation": 0,
+        "median_end_absolute_deviation": 0
+      },
+      "trajectories_without_spans": {
+        "coder_01": [],
+        "coder_02": []
+      }
+    },
+    "StressFresh100": {
+      "trajectories": 100,
+      "step_agreement": {
+        "paired_records": 3132,
+        "agreeing_records": 2792,
+        "raw_agreement": 0.8914431673052363,
+        "cohens_kappa": 0.7861601726333699,
+        "coder_01_counts": {
+          "progress": 1693,
+          "stagnant": 1405,
+          "uncertain": 34
+        },
+        "coder_02_counts": {
+          "progress": 1652,
+          "stagnant": 1446,
+          "uncertain": 34
+        },
+        "confusion_matrix": {
+          "progress": {
+            "progress": 1504,
+            "stagnant": 187,
+            "uncertain": 2
+          },
+          "stagnant": {
+            "progress": 147,
+            "stagnant": 1257,
+            "uncertain": 1
+          },
+          "uncertain": {
+            "progress": 1,
+            "stagnant": 2,
+            "uncertain": 31
+          }
+        }
+      },
+      "span_agreement": {
+        "paired_records": 437,
+        "agreeing_records": 428,
+        "raw_agreement": 0.9794050343249427,
+        "cohens_kappa": 0.9577255871446229,
+        "coder_01_counts": {
+          "productive_iteration": 254,
+          "unproductive_cycle": 183
+        },
+        "coder_02_counts": {
+          "productive_iteration": 253,
+          "unproductive_cycle": 184
+        },
+        "confusion_matrix": {
+          "productive_iteration": {
+            "productive_iteration": 249,
+            "unproductive_cycle": 5
+          },
+          "unproductive_cycle": {
+            "productive_iteration": 4,
+            "unproductive_cycle": 179
+          }
+        },
+        "coder_01_spans": 450,
+        "coder_02_spans": 447,
+        "coder_01_matched_fraction": 0.9711111111111111,
+        "coder_02_matched_fraction": 0.9776286353467561,
+        "coder_01_unmatched_spans": 13,
+        "coder_02_unmatched_spans": 10,
+        "identical_endpoint_pairs": 361,
+        "identical_endpoint_fraction": 0.8260869565217391,
+        "median_start_absolute_deviation": 0,
+        "median_end_absolute_deviation": 0
+      },
+      "trajectories_without_spans": {
+        "coder_01": [],
+        "coder_02": []
+      }
+    }
+  },
+  "overall_step_agreement": {
+    "paired_records": 37696,
+    "agreeing_records": 33168,
+    "raw_agreement": 0.879881154499151,
+    "cohens_kappa": 0.7620003061957344,
+    "coder_01_counts": {
+      "progress": 20393,
+      "stagnant": 17039,
+      "uncertain": 264
+    },
+    "coder_02_counts": {
+      "progress": 19670,
+      "stagnant": 17760,
+      "uncertain": 266
+    },
+    "confusion_matrix": {
+      "progress": {
+        "progress": 17818,
+        "stagnant": 2514,
+        "uncertain": 61
+      },
+      "stagnant": {
+        "progress": 1796,
+        "stagnant": 15194,
+        "uncertain": 49
+      },
+      "uncertain": {
+        "progress": 56,
+        "stagnant": 52,
+        "uncertain": 156
+      }
+    }
+  },
+  "step_one_vs_rest_kappa": {
+    "progress": 0.7642782747813465,
+    "stagnant": 0.7646660324859695,
+    "uncertain": 0.5857672622513714
+  },
+  "uncertain_steps": {
+    "coder_01": 264,
+    "coder_02": 266,
+    "both": 156,
+    "either": 374
+  },
+  "overall_span_agreement": {
+    "paired_records": 4298,
+    "agreeing_records": 4081,
+    "raw_agreement": 0.9495114006514658,
+    "cohens_kappa": 0.8846196764086821,
+    "coder_01_counts": {
+      "productive_iteration": 2927,
+      "unproductive_cycle": 1371
+    },
+    "coder_02_counts": {
+      "productive_iteration": 2890,
+      "unproductive_cycle": 1408
+    },
+    "confusion_matrix": {
+      "productive_iteration": {
+        "productive_iteration": 2800,
+        "unproductive_cycle": 127
+      },
+      "unproductive_cycle": {
+        "productive_iteration": 90,
+        "unproductive_cycle": 1281
+      }
+    },
+    "coder_01_spans": 4945,
+    "coder_02_spans": 4827,
+    "coder_01_matched_fraction": 0.8691607684529828,
+    "coder_02_matched_fraction": 0.8904081209861198,
+    "coder_01_unmatched_spans": 647,
+    "coder_02_unmatched_spans": 529,
+    "identical_endpoint_pairs": 3224,
+    "identical_endpoint_fraction": 0.7501163331782225,
+    "median_start_absolute_deviation": 0.0,
+    "median_end_absolute_deviation": 0.0
+  }
+}
